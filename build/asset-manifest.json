@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/practing-deploy/static/css/main.b100e6da.chunk.css",
+    "main.js": "/practing-deploy/static/js/main.0d50daef.chunk.js",
+    "main.js.map": "/practing-deploy/static/js/main.0d50daef.chunk.js.map",
+    "runtime-main.js": "/practing-deploy/static/js/runtime-main.decb4621.js",
+    "runtime-main.js.map": "/practing-deploy/static/js/runtime-main.decb4621.js.map",
+    "static/js/2.8030f1d0.chunk.js": "/practing-deploy/static/js/2.8030f1d0.chunk.js",
+    "static/js/2.8030f1d0.chunk.js.map": "/practing-deploy/static/js/2.8030f1d0.chunk.js.map",
+    "index.html": "/practing-deploy/index.html",
+    "precache-manifest.137685abc750ea8f76d35d2c18300765.js": "/practing-deploy/precache-manifest.137685abc750ea8f76d35d2c18300765.js",
+    "service-worker.js": "/practing-deploy/service-worker.js",
+    "static/css/main.b100e6da.chunk.css.map": "/practing-deploy/static/css/main.b100e6da.chunk.css.map"
+  }
+}
