@@ -1,0 +1,30 @@
+.PersonInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    margin: 10px;
+}
+
+.PersonInfo h1{
+    color: #384188;
+    margin: 10px;
+}
+p{
+    color: #ad1934;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: x-large;
+}
+.MuiFab-secondary{
+    margin: 20px;
+}
+
+span{
+    display: flex;
+    justify-content: space-between;
+    width: 8em;
+    margin: 10px;
+}

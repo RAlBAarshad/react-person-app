@@ -1,0 +1,20 @@
+.PersonEdit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    color: #384188;
+    font-size: 1.5em;
+    padding: 4px 8px;
+}
+
+.PersonEdit h1{
+    color: #ad1934;
+    margin: 0px 0px 20px 0px;
+}
+
+.PersonEdit Button {
+    margin: 5px 0px;
+}

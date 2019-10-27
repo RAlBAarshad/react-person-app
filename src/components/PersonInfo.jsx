@@ -1,22 +1,30 @@
 import React from 'react';
+import './PersonInfo.css'
 import PropType from 'prop-types';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+// import Button from '@material-ui/core/Button';
+import EditIcon from '@material-ui/icons/Edit';
+import DeleteIcon from '@material-ui/icons/Delete';
+import Fab from '@material-ui/core/Fab';
 
 export default function PersonInfo(props) {
     return (
         <div className="PersonInfo">
+
             <h1> {props.person.name} ,  {props.person.age} </h1>
             <p> {props.person.description} </p>
-            <button> edit </button>
-            <button> delete </button>
-            {/* <FontAwesomeIcon icon={faCoffee} /> */}
+            <span>
+                <Fab className="button" color="secondary" aria-label="edit" onClick={props.jabEditButtonClickHoToKyaKro} >
+                    <EditIcon /> </Fab>
+                <Fab className="button" color="primary" aria-label="delete" >  <DeleteIcon /> </Fab>
+            </span>
+
         </div>
     )
 }
 
 
 PersonInfo.propTypes = {
-    person: PropType.object
+    person: PropType.object,
+    jabEditButtonClickHoToKyaKro: PropType.func
 }
 
